@@ -1,0 +1,15 @@
+#datenschutz {
+    margin: 1rem 5rem;
+    min-height: 100vh;
+
+    a{
+        color: $verydark-blue;
+        &:hover {
+            @include hover
+        }
+    }
+
+    p {
+        margin-top: 1rem;
+    }
+}

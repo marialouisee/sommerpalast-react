@@ -1,0 +1,35 @@
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins/_breakpoints";
+
+
+#contact {
+    @include container;
+    @include center;
+    
+    flex-direction: column;
+
+    p {
+        @include text;
+    }
+    div {
+        margin-top: 1.5rem;
+    }
+    a {
+        color: $verydark-blue;
+    }
+  
+
+}
+@include media-breakpoint-up(md) {
+    
+    #contact { 
+        padding: 3rem;
+
+    }    
+}
+
+
+
+
+

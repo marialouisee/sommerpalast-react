@@ -1,0 +1,36 @@
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins/_breakpoints";
+
+
+#eismanufaktur {
+    @include container;
+    @include center;
+    
+    flex-direction: column;
+    
+    img {
+        width: 100%;
+        margin-top: 2rem
+    };
+
+    p {
+        @include text;
+    }
+
+    h2 {
+        margin-top: 1.5rem;
+    }
+  
+
+}
+@include media-breakpoint-up(md) {
+    
+    #eismanufaktur { 
+        padding: 3rem;
+
+    }    
+}
+
+
+

@@ -1,0 +1,12 @@
+.backToHome {
+    display: flex;
+    justify-content: flex-end;
+    height: 80px;
+    a{
+        @include center;
+
+        svg {
+            margin-right: 0.5rem
+        }
+    }
+}

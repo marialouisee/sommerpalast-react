@@ -1,0 +1,29 @@
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins/_breakpoints";
+
+
+.footer {
+    height: 4rem;
+    @include center;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0),$lighter-blue, $lighter-blue, $lighter-blue) ;
+    a {
+        color: black;
+        margin: 2rem 1rem 1rem 1rem;
+
+        &:hover {
+            @include hover
+        }
+    }
+
+
+    position: sticky;
+    bottom: 0;
+}
+@include media-breakpoint-up(md) {
+    
+    
+}
+
+
+

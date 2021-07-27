@@ -1,0 +1,25 @@
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins/_breakpoints";
+
+.side {
+    display: none;
+}
+
+@include media-breakpoint-up(md) {
+
+    .logoDiv{
+        height: 100%;
+        width: 15rem;
+    }
+    .side {
+        @include center;
+        img {
+            width: 7rem;
+            position: fixed;
+            bottom: 1.5rem;
+        }
+
+    }
+  
+}

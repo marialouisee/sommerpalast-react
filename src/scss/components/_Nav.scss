@@ -1,0 +1,24 @@
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins/_breakpoints";
+
+.mynav{
+    .navLink{
+        color: black;
+        margin-left: 1rem;
+        
+    }  
+    .navLink:hover{
+       @include hover
+    }  
+
+}
+
+
+@include media-breakpoint-up(md) {
+    .mynav { 
+        height: 80px;
+    }
+
+}
+
