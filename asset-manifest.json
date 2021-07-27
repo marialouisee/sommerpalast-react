@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/sommerpalast-react/static/css/main.d81abb41.chunk.css",
+    "main.js": "/sommerpalast-react/static/js/main.9ef9619b.chunk.js",
+    "main.js.map": "/sommerpalast-react/static/js/main.9ef9619b.chunk.js.map",
+    "runtime-main.js": "/sommerpalast-react/static/js/runtime-main.44228a1c.js",
+    "runtime-main.js.map": "/sommerpalast-react/static/js/runtime-main.44228a1c.js.map",
+    "static/css/2.081f420c.chunk.css": "/sommerpalast-react/static/css/2.081f420c.chunk.css",
+    "static/js/2.256d293c.chunk.js": "/sommerpalast-react/static/js/2.256d293c.chunk.js",
+    "static/js/2.256d293c.chunk.js.map": "/sommerpalast-react/static/js/2.256d293c.chunk.js.map",
+    "index.html": "/sommerpalast-react/index.html",
+    "static/css/2.081f420c.chunk.css.map": "/sommerpalast-react/static/css/2.081f420c.chunk.css.map",
+    "static/css/main.d81abb41.chunk.css.map": "/sommerpalast-react/static/css/main.d81abb41.chunk.css.map",
+    "static/js/2.256d293c.chunk.js.LICENSE.txt": "/sommerpalast-react/static/js/2.256d293c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.44228a1c.js",
+    "static/css/2.081f420c.chunk.css",
+    "static/js/2.256d293c.chunk.js",
+    "static/css/main.d81abb41.chunk.css",
+    "static/js/main.9ef9619b.chunk.js"
+  ]
+}
