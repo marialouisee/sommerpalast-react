@@ -8,7 +8,7 @@ const Classes = () => {
             <div>
 
                 <div>
-                    <img src={process.env.PUBLIC_URL + "./img/summer-783347_1280.jpeg"}alt=""/>
+                    <img src={process.env.PUBLIC_URL + "/img/IMG_8105.jpg"}alt=""/>
                 </div>
 
                 <div> 

@@ -15,7 +15,7 @@ const Sommerpalast = () => {
                         </p>   
 
                         <div >
-                        <img src={process.env.PUBLIC_URL + "./img/summer-783347_1280.jpeg"} alt=""/>
+                        <img src={process.env.PUBLIC_URL + "/img/IMG_8105.jpg"} alt=""/>
                         </div>       
                                  
                     </div>
@@ -29,7 +29,7 @@ const Sommerpalast = () => {
 
                 <div id='laden'>
                         <div >
-                            <img src={process.env.PUBLIC_URL + "./img/summer-783347_1280.jpeg"} alt=""/>
+                            <img src={process.env.PUBLIC_URL + "/img/IMG_8105.jpg"} alt=""/>
                         </div>       
                         <p>
                             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos libero adipisci eos culpa hic, ducimus blanditiis quia doloribus dolor nobis repellat eius maxime commodi error ipsa minima iste. Rerum, eaque?
