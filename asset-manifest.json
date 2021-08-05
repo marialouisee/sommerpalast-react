@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/sommerpalast-react/static/css/main.d81abb41.chunk.css",
-    "main.js": "/sommerpalast-react/static/js/main.9ef9619b.chunk.js",
-    "main.js.map": "/sommerpalast-react/static/js/main.9ef9619b.chunk.js.map",
+    "main.js": "/sommerpalast-react/static/js/main.069c85c6.chunk.js",
+    "main.js.map": "/sommerpalast-react/static/js/main.069c85c6.chunk.js.map",
     "runtime-main.js": "/sommerpalast-react/static/js/runtime-main.44228a1c.js",
     "runtime-main.js.map": "/sommerpalast-react/static/js/runtime-main.44228a1c.js.map",
     "static/css/2.081f420c.chunk.css": "/sommerpalast-react/static/css/2.081f420c.chunk.css",
@@ -18,6 +18,6 @@
     "static/css/2.081f420c.chunk.css",
     "static/js/2.256d293c.chunk.js",
     "static/css/main.d81abb41.chunk.css",
-    "static/js/main.9ef9619b.chunk.js"
+    "static/js/main.069c85c6.chunk.js"
   ]
 }
