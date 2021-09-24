@@ -1,4 +1,3 @@
-
 import React, { useEffect, useState } from "react";
 import { FaArrowUp } from "react-icons/fa";
 
@@ -10,7 +9,7 @@ const ToTop = () => {
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
-      behavior: "smooth"
+      behavior: "smooth",
     });
   };
 
@@ -29,18 +28,18 @@ const ToTop = () => {
     return () => window.removeEventListener("scroll", toggleVisibility);
   }, []);
 
-//scroll-to-top classes: fixed, bottom:0, right:0
+  //scroll-to-top classes: fixed, bottom:0, right:0
   return (
     <div className="totop">
       {isVisible && (
         <div onClick={scrollToTop}>
-          <h3>< FaArrowUp /></h3>
+          <h3>
+            <FaArrowUp />
+          </h3>
         </div>
       )}
     </div>
   );
 };
 
-export default ToTop
-
-
+export default ToTop;

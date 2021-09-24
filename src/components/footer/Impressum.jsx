@@ -1,15 +1,11 @@
 import React from 'react';
 import Back from '../Back'
 
-
 const impressum = () => {
     return (
       <section id="impressum">
-
         <Back/>
-        
         <h1>IMPRESSUM</h1>
-
         <div class="textInfo">
           <p>
             <b>Sommerpalast Hiddensee UG</b>
@@ -33,13 +29,10 @@ const impressum = () => {
             <br />
             www.sommerpalasthiddensee.de
           </p>
-
           <p>Eintragung im Handelsregister.</p>
-
           <p>
             Umsatzsteuer-Identifikationsnummer gemäß §27 a Umsatzsteuergesetz:
           </p>
-
           <p>
             Trotz sorgfältiger inhaltlicher Kontrolle übernehmen wir keine
             Haftung für die Inhalte externer Links. Für den Inhalt der
